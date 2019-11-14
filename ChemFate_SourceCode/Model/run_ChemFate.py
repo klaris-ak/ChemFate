@@ -17,8 +17,8 @@ else:
     chem_file = CUR_PATH + '/../Input/ChemParam_nanomaterial.xlsx'
 
 
-region_file = CUR_PATH + '/../Input/Visalia.xlsx'
-release_file = CUR_PATH + '/../Input/ChemRelease_metal.xlsx'
+region_file = CUR_PATH + '/../Input/Region.xlsx'
+release_file = CUR_PATH + '/../Input/ChemRelease.xlsx'
 run_option = 1 # can be 1 or 2:
 bgPercOption2 = 10 # can be anywhere between 0-100
 output_file_path = CUR_PATH + '/../Output/'
