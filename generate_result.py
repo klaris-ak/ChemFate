@@ -4,12 +4,10 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.colors as mcolors
-import matplotlib.ticker as tkr
 import seaborn as sns
 import os
 from collections import OrderedDict
 from openpyxl import load_workbook
-import csv
 
 color_air_water = ['palegreen', 'lightgreen', 'forestgreen', 'limegreen', 'aquamarine']
 color_air = ['lightblue', 'dodgerblue']
@@ -498,6 +496,9 @@ class GenerateResult:
 
         axes[0].set_xticklabels(xlabels, fontsize=12)
         axes[1].set_xticklabels(xlabels, fontsize=12)
+
+        axes[0].set_ylim(len(df_conc), -0.2)
+        axes[1].set_ylim(len(df_conc), -0.2)
 
         fig.suptitle(chem_name + ' in ' + region_name + ' using ' + release_scenario + ' Release \n'
                      'Overall mean concentration and last day mass fraction in major (bulk) compartments \n', fontsize=13)

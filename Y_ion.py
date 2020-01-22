@@ -6,7 +6,7 @@ from species_fraction_ion import SpeciesFraction
 from partition_coef_ion import PartitionCoefficient
 
 
-with open('./Data/IonizableChem_helper.json') as f:
+with open('./IonizableChem_helper.json') as f:
     data = json.load(f)
 
 foc_map = data['foc_map']
@@ -48,7 +48,7 @@ class Y_Value:
                 Fr_txt_i = 'Fr_' + compart + '_i'
 
                 # if self.chemParams[Fr_txt_n] == '--':
-                if isinstance(self.chemParams[Fr_txt_n], basestring):
+                if isinstance(self.chemParams[Fr_txt_n], str):
                     # if compart not in solid_compart_list:
                     #     Fr_n, Fr_i = speciation.species_fraction_water(self.env_dict[pH_map[compart]])
                     # else:

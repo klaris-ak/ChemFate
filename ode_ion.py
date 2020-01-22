@@ -2,8 +2,6 @@ from degradation_process import Degradation
 from advective_processes import AdvectiveProcess
 from diffusion_process_ion import Diffusion
 
-import numpy as np
-
 def ion_ode(t, Q, i, presence, env, chemParams, climate, release, bgConc,
             Z_ij, Z_ij_sub, Y_ij, X_ij, Z_i):
     # Q is the total aquivalence by each subcompartment, also Q_t, unit: mol/m3

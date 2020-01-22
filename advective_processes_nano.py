@@ -1,7 +1,4 @@
-import xlrd
 import numpy as np
-from xlrd import open_workbook
-from datetime import date, time, timedelta
 import datetime
 import math
 

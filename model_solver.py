@@ -94,7 +94,7 @@ def org_solver(start_date, time, presence, env, climate, chemParams, bgConc, rel
     start_day = datetime.strptime(start_date, "%Y %m %d")
 
     for i in range(time):
-        print i
+        print (i)
         r = ode(org_ode).set_integrator('vode', method='bdf', order=5, with_jacobian=True,
                                         nsteps= 5000, rtol=1e-6, atol=1e-14)
         r.set_initial_value(f[-1], 0)
@@ -191,7 +191,7 @@ def org_solver(start_date, time, presence, env, climate, chemParams, bgConc, rel
 
 def ion_solver(chem_type, start_date, time, presence, env, climate, chemParams, bgConc, release):
 
-    with open('./Data/IonizableChem_helper.json') as f:
+    with open('./IonizableChem_helper.json') as f:
         data = json.load(f)
 
     subcompart_map = data['subcompart_map']
@@ -267,7 +267,7 @@ def ion_solver(chem_type, start_date, time, presence, env, climate, chemParams, 
              env['soilAV4'], env['soilWV2'], env['soilSV3'], env['deepSV4']]
 
     for i in range(time):
-        print i
+        print (i)
         if chem_type == 'IonizableOrganic':
             r = ode(ion_ode).set_integrator('vode', method='bdf', order=5, with_jacobian=True,
                                             nsteps=5000, rtol=1e-6, atol=1e-14)
@@ -413,7 +413,7 @@ def nano_solver(start_date, time, presence, env, climate, ENM, bgConc, release):
 
     # matched tolerance to matlab, can't go lower and still get a match and run matlab
     for i in range(time):
-        print i
+        print (i)
         # -9 and -10 are a statistical match to matlab
         r = ode(ode_nano).set_integrator('vode', method='bdf', with_jacobian=True,
                                          nsteps=5000, rtol=1e-6, atol=1e-14)

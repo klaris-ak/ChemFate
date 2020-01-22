@@ -1,8 +1,6 @@
 from __future__ import division
-import os
 from datetime import datetime
 import pandas as pd
-import numpy as np
 from collections import OrderedDict
 from load_data import LoadData
 from load_data_nano import load_data

@@ -34,7 +34,7 @@ class LoadData:
     def get_Koc_acid(self, smiles, cas):
         # if the chemical is organic acid, this parameter would be used to calculate Kd_i in soil
         Koc_acid = None
-        df = pd.read_excel('./Data/IonizableChem_DB.xlsx', sheetname='Koc_organicAcid')
+        df = pd.read_excel('./IonizableChem_DB.xlsx', sheet_name='Koc_organicAcid')
         # check if smiles in the SMILES column
         # if contains, a row of values would return
         # if not contain, an empty dataframe would return
@@ -62,7 +62,7 @@ class LoadData:
     def get_infil_rate(self, soil_type, slope):
         infil_rate = None
         slope_col = None
-        df = pd.read_excel('./Data/IonizableChem_DB.xlsx', sheetname='infiltrationRate', index_col=0)
+        df = pd.read_excel('./IonizableChem_DB.xlsx', sheetname='infiltrationRate', index_col=0)
 
         if slope <= 4:
             slope_col = '0-4%'

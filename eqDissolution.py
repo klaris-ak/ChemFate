@@ -40,19 +40,19 @@ def eqDissolution(ENM,FWpH,SWpH,GWpH1,GWpH2,GWpH3,GWpH4,presence):
 
 	# load correct mat file
 	if ENM == 'Ag':
-		contents = sio.loadmat('./Data/Ag_eq_dis.mat')
+		contents = sio.loadmat('./Ag_eq_dis.mat')
 	elif ENM == 'CuO':
-		contents = sio.loadmat('./Data/CuO_eq_dis.mat')
+		contents = sio.loadmat('./CuO_eq_dis.mat')
 	elif ENM == 'nZVI':
-		contents = sio.loadmat('./Data/nZVI_eq_dis.mat')
+		contents = sio.loadmat('./nZVI_eq_dis.mat')
 	elif ENM == 'TiO2':
-		contents = sio.loadmat('./Data/TiO2_eq_dis.mat')
+		contents = sio.loadmat('./TiO2_eq_dis.mat')
 	elif ENM == 'ZnO':
-		contents = sio.loadmat('./Data/ZnO_eq_dis.mat')
+		contents = sio.loadmat('./ZnO_eq_dis.mat')
 	elif ENM == 'CeO2':
-		contents = sio.loadmat('./Data/CeO2_eq_dis.mat')
+		contents = sio.loadmat('./CeO2_eq_dis.mat')
 	elif ENM == 'SiO2':
-		contents = sio.loadmat('./Data/SiO2_eq_dis.mat')
+		contents = sio.loadmat('./SiO2_eq_dis.mat')
 
 	#%% Freshwater
 
