@@ -6,7 +6,8 @@ A level IV dynamic chemical fate and transport tool that can handle four classes
   3) metalFate - metals
   4) nanoFate - nanomaterials
 
-To run ChemFate: 
+To run ChemFate through a simple GUI (ChemFate.exe), 
+here is the link: https://drive.google.com/file/d/1qvTsRgHde0O8IDdIGVgeLY2eGTDuh807/view?usp=sharing
 
 1. Please keep the input files in the 'Input' folder.
 	- ChemParam_nonionizableOrganic.xlsx
