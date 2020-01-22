@@ -10,11 +10,11 @@ To run ChemFate:
 
 1. Please keep the input files in the 'Input' folder.
 	- ChemParam_nonionizableOrganic.xlsx
-  - ChemParam_ionizableOrganic.xlsx
-  - ChemParam_metal.xlsx
-  - ChemParam_nanomaterial.xlsx
-  - ChemRelease.xlsx
-  - Region.xlsx
+	- ChemParam_ionizableOrganic.xlsx
+	- ChemParam_metal.xlsx
+	- ChemParam_nanomaterial.xlsx
+	- ChemRelease.xlsx
+	- Region.xlsx
 
 2. Please don't change the names of files in 'Input' Folder.
 	- if you want to change to another chemical or another region,
