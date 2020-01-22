@@ -17,11 +17,11 @@ here is the link: https://drive.google.com/file/d/1qvTsRgHde0O8IDdIGVgeLY2eGTDuh
 	- ChemRelease.xlsx
 	- Region.xlsx
 
-2. Please don't change the names of files in 'Input' Folder.
+2. Please don't change the names of files in the 'Input' Folder.
 	- if you want to change to another chemical or another region,
 	you can just replace the content inside those files.
 
 3. If you are going to run ChemFate for 10 yrs of data (2005 1 1 to 2014 12 31),
-	it would take around 3-5 mins.
+	it may take around 3-5 mins.
 
-If you have any questions, please contact Dr. Arturo Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
+If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
