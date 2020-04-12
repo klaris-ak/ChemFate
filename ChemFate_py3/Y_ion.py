@@ -257,16 +257,16 @@ class Y_Value:
             if self.chem_type != 'Metal':
                 # pre-define the aquivaence fraction, using air phase, neutral fraction is 1
                 Y_dict[compart] = [1.0, 0.0]
-                if compart != 'air':
-                    # Yij = (Xij/Zij)/sum(Xij/Zij), summation of neural and ionic species
-                    # avoid bottom value is 0
-                    if Z_dict[compart][0] == 0:
-                        Z_dict[compart][0] = 10**(-20)
-                    if Z_dict[compart][1] == 0:
-                        Z_dict[compart][1] = 10**(-20)
-                    sum_val = X_dict[compart][0]/Z_dict[compart][0] + X_dict[compart][1]/Z_dict[compart][1]
-                    Y_dict[compart][0] = (X_dict[compart][0] / Z_dict[compart][0]) / sum_val
-                    Y_dict[compart][1] = (X_dict[compart][1] / Z_dict[compart][1]) / sum_val
+                
+                # Yij = (Xij/Zij)/sum(Xij/Zij), summation of neural and ionic species
+                # avoid bottom value is 0
+                if Z_dict[compart][0] == 0:
+                    Z_dict[compart][0] = 10**(-20)
+                if Z_dict[compart][1] == 0:
+                    Z_dict[compart][1] = 10**(-20)
+                sum_val = X_dict[compart][0]/Z_dict[compart][0] + X_dict[compart][1]/Z_dict[compart][1]
+                Y_dict[compart][0] = (X_dict[compart][0] / Z_dict[compart][0]) / sum_val
+                Y_dict[compart][1] = (X_dict[compart][1] / Z_dict[compart][1]) / sum_val
 
             elif self.chem_type == 'Metal':
                 Y_dict[compart] = [0.0, 0.0, 0.0]
