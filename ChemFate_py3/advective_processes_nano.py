@@ -136,9 +136,9 @@ def vertFlow(precip_mm, CN, evap_mm, FC, soilWC, soilV, soilA):
         soil_water = soilWC * soilV + infil_mm * 0.001 * soilA
 
         # unit: unitless * m3 = m3
-        if soil_water <= FC * soilV:
+        if soil_water >= FC * soilV:
             # unit: m3/day
-            k_infil = FC * soilV - soil_water
+            k_infil = soil_water - FC * soilV
         else:
             k_infil = 0
 
