@@ -21,7 +21,9 @@ here is the link: https://drive.google.com/file/d/1qvTsRgHde0O8IDdIGVgeLY2eGTDuh
 	- if you want to change to another chemical or another region,
 	you can just replace the content inside those files.
 
-3. If you are going to run ChemFate for 10 yrs of data (2005 1 1 to 2014 12 31),
+3. Your model results will be in the 'Output' Folder.
+
+4. If you are going to run ChemFate for 10 yrs of data (2005 1 1 to 2014 12 31),
 	it may take around 3-5 mins.
 
 If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
