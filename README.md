@@ -6,7 +6,7 @@ A level IV dynamic chemical fate and transport tool that can handle four classes
   3) metalFate - metals
   4) nanoFate - nanomaterials
 
-* ChemFate has been published in Chemosphere, please go to [here] for detailed model documentation [link to Google!](http://google.com)(https://www-sciencedirect-com.proxy.library.ucsb.edu:9443/science/article/pii/S0045653520310900)
+* ChemFate has been published in Chemosphere, please go to [here] for detailed model documentation. (https://dx.doi.org/10.1016/j.chemosphere.2020.126897)
 
 To run ChemFate through a simple GUI (ChemFate.exe), 
 here is the link: https://drive.google.com/file/d/1Cw0ZS8vbOqD6Q8-T9F63-3EsKLPbyLYu/view?usp=sharing
