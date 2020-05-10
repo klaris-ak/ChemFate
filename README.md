@@ -1,6 +1,6 @@
 # Welcome to ChemFate!
 * ChemFate has been published in *Chemosphere*, please go [here](https://dx.doi.org/10.1016/j.chemosphere.2020.126897) for detailed model documentation.
-## Chemical Fate and Transport models
+## ChemFate (Chemical Fate and Transport models)
 A level IV dynamic chemical fate and transport tool that can handle four classes of chemicals:
   1) **organoFate** - non-ionizable organic chemicals
   2) **ionOFate** - ionizable organic chemicals
