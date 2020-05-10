@@ -14,20 +14,20 @@ If you would like to run the model using Python, you can download the whole fold
 ## 2. Run Model from Executable File (.exe)
 To run ChemFate through a simple GUI (ChemFate.exe), 
 please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7t5/view?usp=sharing) to download the tool.
+* Please make sure to download the whole zipped folder.
 
 ### Below are the steps to run ChemFate tool:
-1. Unzip the folder. Please keep the folder structure.
+1. Unzip the folder. Please keep the folder structure and keep the files in their specified folder.
 	* **ChemFate.exe**: ChemFate executable file to run the tool.
 	* **Input** folder: put the input files.
 	* **Output** folder: store the output files.
 	* **Model_Data** folder: the data files that are needed during the tool execution.
 
-![ChemFate_folder](https://github.com/klaris-ak/ChemFate/blob/master/Images/folder_structure.png "ChemFate_folder")
-
 2. Double click on '**ChemFate.exe**'. It may take a few seconds or longer to open the ChemFate GUI window below.
 
 ![ChemFate.exe](https://github.com/klaris-ak/ChemFate/blob/master/Images/chemfate.png "ChemFate.exe")
 
+### Here are a few tips:
 1. Please keep the input files in the 'Input' folder.
 	- ChemParam_nonionizableOrganic.xlsx
 	- ChemParam_ionizableOrganic.xlsx
