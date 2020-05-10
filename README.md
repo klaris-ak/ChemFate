@@ -50,9 +50,17 @@ please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7
 ChemFate generates the following outputs:
 | Content       | File Tyle     |
 | ------------- |:-------------:|
-| Daily concentration of each chemical’s various forms (if applicable) in each compartment      | XLSX file |
-| Daily mass of each chemical’s various forms (if applicable)  in each compartment     | XLSX file       |
-| Heatmap showing comparison of each chemical’s overall average concentration for all compartments| Png     |
-| Line graphs showing each chemical’s concentration variability over time| Png     |
+| Daily concentration of each chemical’s various forms (if applicable) in each compartment      | XLSX |
+| Daily mass of each chemical’s various forms (if applicable)  in each compartment     | XLSX       |
+| Heatmap showing comparison of each chemical’s overall average concentration for all compartments| PNG     |
+| Line graphs showing each chemical’s concentration variability over time| PNG     |
 
-If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
+1. Heatmap example
+
+![heatmap](https://github.com/klaris-ak/ChemFate/blob/master/Images/metal_heatmap_example.png "heatmap")
+
+2. Line graph example
+
+![linegraph](https://github.com/klaris-ak/ChemFate/blob/master/Images/neutral_bulk_example.png.png "linegraph")
+
+*If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
