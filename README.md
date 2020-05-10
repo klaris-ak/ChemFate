@@ -52,6 +52,7 @@ ChemFate generates the following outputs:
 | ------------- |:-------------:|
 | Daily concentration of each chemical’s various forms (if applicable) in each compartment      | XLSX file |
 | Daily mass of each chemical’s various forms (if applicable)  in each compartment     | XLSX file       |
-| zebra stripes | are neat      |
+| Heatmap showing comparison of each chemical’s overall average concentration for all compartments| Png     |
+| Line graphs showing each chemical’s concentration variability over time| Png     |
 
 If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
