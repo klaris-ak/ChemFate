@@ -1,11 +1,12 @@
 # Welcome to ChemFate!
 * ChemFate has been published in *Chemosphere*, please go [here](https://dx.doi.org/10.1016/j.chemosphere.2020.126897) for detailed model documentation.
 ## ChemFate (Chemical Fate and Transport models)
-A level IV dynamic chemical fate and transport tool that can handle four classes of chemicals:
-  1) **organoFate** - non-ionizable organic chemicals
-  2) **ionOFate** - ionizable organic chemicals
-  3) **metalFate** - metals
-  4) **nanoFate** - nanomaterials
+ChemFate predicts daily chemical environmental concentrations for four classes of chemicals in nine environmental compartments (e.g., air, freshwater, coastal seawater, natural soil, urban soil, agricultural soil with and without applied biosolids):
+
+  1) **organoFate** - a model for non-ionizable organic chemicals
+  2) **ionOFate** - a model for ionizable organic chemicals
+  3) **metalFate** - a model for metal ions
+  4) **nanoFate** - a model for nanomaterials
 
 ## 1. Run Model from Python Code
 If you would like to run the model using Python, you can download the whole folder on this page by clicking on 'Clone or download' button.
@@ -44,5 +45,13 @@ please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7
 
 4. If you are going to run ChemFate for 10 yrs of data (2005 1 1 to 2014 12 31),
 	it may take around 3-5 mins.
+
+## 3. Model Output Results Example
+ChemFate generates the following outputs:
+| Content       | File Tyle     |
+| ------------- |:-------------:|
+| Daily concentration of each chemical’s various forms (if applicable) in each compartment      | XLSX file |
+| Daily mass of each chemical’s various forms (if applicable)  in each compartment     | XLSX file       |
+| zebra stripes | are neat      |
 
 If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
