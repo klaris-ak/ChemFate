@@ -19,7 +19,7 @@ please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7
 ### Below are the steps to run ChemFate tool:
 1. Unzip the folder. Please keep the folder structure and keep the files in their specified folder.
 	* **ChemFate.exe**: ChemFate executable file to run the tool.
-	* **Input** folder: put the input files.
+	* **Input** folder: contain the input files.
 	* **Output** folder: store the output files.
 	* **Model_Data** folder: the data files that are needed during the tool execution.
 
