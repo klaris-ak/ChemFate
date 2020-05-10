@@ -63,4 +63,4 @@ ChemFate generates the following outputs:
 
 ![linegraph](https://github.com/klaris-ak/ChemFate/blob/master/Images/neutral_bulk_example.png "linegraph")
 
-*If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA
+*If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA*
