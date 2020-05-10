@@ -15,7 +15,7 @@ If you would like to run the model using Python, you can download the whole fold
 ## 2. Run Model from Executable File (.exe)
 To run ChemFate through a simple GUI (ChemFate.exe), 
 please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7t5/view?usp=sharing) to download the tool.
-* Please make sure to download the whole zipped folder.
+* Please make sure to download all four folders/files within the ChemFate folder. You can download all in one zipped file.
 
 ### 1) Below are the steps to run ChemFate tool:
 1. Unzip the folder. Please keep the folder structure.
