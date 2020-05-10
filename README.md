@@ -16,7 +16,7 @@ To run ChemFate through a simple GUI (ChemFate.exe),
 please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7t5/view?usp=sharing) to download the tool.
 * Please make sure to download the whole zipped folder.
 
-### Below are the steps to run ChemFate tool:
+### 1) Below are the steps to run ChemFate tool:
 1. Unzip the folder. Please keep the folder structure and keep the files in their specified folder.
 	* **ChemFate.exe**: ChemFate executable file to run the tool.
 	* **Input** folder: contain the input files.
@@ -27,7 +27,7 @@ please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7
 
 ![ChemFate.exe](https://github.com/klaris-ak/ChemFate/blob/master/Images/chemfate.png "ChemFate.exe")
 
-### Here are a few tips:
+### 2) Here are a few tips:
 1. Please keep the input files in the 'Input' folder.
 	- ChemParam_nonionizableOrganic.xlsx
 	- ChemParam_ionizableOrganic.xlsx
