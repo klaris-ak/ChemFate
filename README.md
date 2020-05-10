@@ -8,7 +8,7 @@ A level IV dynamic chemical fate and transport tool that can handle four classes
 
 * ChemFate has been published in Chemosphere, please go to for detailed model documentation. [here] (https://dx.doi.org/10.1016/j.chemosphere.2020.126897)
 
-[link to Google!](http://google.com)
+[here](https://dx.doi.org/10.1016/j.chemosphere.2020.126897)
 
 To run ChemFate through a simple GUI (ChemFate.exe), 
 here is the link: https://drive.google.com/file/d/1Cw0ZS8vbOqD6Q8-T9F63-3EsKLPbyLYu/view?usp=sharing
