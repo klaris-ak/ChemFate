@@ -8,12 +8,12 @@ A level IV dynamic chemical fate and transport tool that can handle four classes
   4) nanoFate - nanomaterials
 
 ### Run Model from Python Code
-If you would like to run the model using Python, you can download the whole folder on this page by clicking on 'Clone or download'.
-* run_ChemFate.py is the python script to call to run the code.
+If you would like to run the model using Python, you can download the whole folder on this page by clicking on 'Clone or download' button.
+* **run_ChemFate.py** is the python script to call to run the code.
 
 ### Run Model from Executable File (.exe)
 To run ChemFate through a simple GUI (ChemFate.exe), 
-here is the link: https://drive.google.com/file/d/1Cw0ZS8vbOqD6Q8-T9F63-3EsKLPbyLYu/view?usp=sharing
+please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7t5/view?usp=sharing) to download the tool.
 
 1. Please keep the input files in the 'Input' folder.
 	- ChemParam_nonionizableOrganic.xlsx
