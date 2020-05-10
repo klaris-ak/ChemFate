@@ -1,7 +1,7 @@
 # Welcome to ChemFate!
 * ChemFate has been published in *Chemosphere*, please go [here](https://dx.doi.org/10.1016/j.chemosphere.2020.126897) for detailed model documentation.
 ## ChemFate (Chemical Fate and Transport models)
-ChemFate predicts daily chemical environmental concentrations for four classes of chemicals in nine environmental compartments (e.g., air, freshwater, coastal seawater, natural soil, urban soil, agricultural soil with and without applied biosolids):
+ChemFate predicts daily chemical environmental concentrations for four classes of chemicals in nine environmental compartments (e.g., air, freshwater, coastal seawater, natural soil, urban soil, agricultural soil with and without applied biosolids). ChemFate comprises four different models:
 
   1) **organoFate** - a model for non-ionizable organic chemicals
   2) **ionOFate** - a model for ionizable organic chemicals
@@ -18,7 +18,7 @@ please go [here](https://drive.google.com/file/d/12zNlE2hnfWgw7UkB04ENNXbtYqvNP7
 * Please make sure to download the whole zipped folder.
 
 ### 1) Below are the steps to run ChemFate tool:
-1. Unzip the folder. Please keep the folder structure and keep the files in their specified folder.
+1. Unzip the folder. Please keep the folder structure.
 	* **ChemFate.exe**: ChemFate executable file to run the tool.
 	* **Input** folder: contain the input files.
 	* **Output** folder: store the output files.
@@ -63,4 +63,4 @@ ChemFate generates the following outputs:
 
 ![linegraph](https://github.com/klaris-ak/ChemFate/blob/master/Images/neutral_bulk_example.png "linegraph")
 
-*If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu), Keller Lab, Bren School, UC Santa Barbara, USA*
+*If you have any questions, please contact Dr. Arturo A. Keller (arturokeller@ucsb.edu),Bren School, UC Santa Barbara, USA*
