@@ -55,11 +55,11 @@ ChemFate generates the following outputs:
 | Heatmap showing comparison of each chemical’s overall average concentration for all compartments| PNG     |
 | Line graphs showing each chemical’s concentration variability over time| PNG     |
 
-### 1. Heatmap example
+### 1) Heatmap example
 
 ![heatmap](https://github.com/klaris-ak/ChemFate/blob/master/Images/metal_heatmap_example.png "heatmap")
 
-### 2. Line graph example
+### 2) Line graph example
 
 ![linegraph](https://github.com/klaris-ak/ChemFate/blob/master/Images/neutral_bulk_example.png "linegraph")
 
